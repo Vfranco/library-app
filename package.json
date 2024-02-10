@@ -1,0 +1,17 @@
+{
+  "name": "ts-session-two",
+  "version": "1.0.0",
+  "description": "My Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "my-project"
+  ],
+  "author": "vfrancov25",
+  "license": "ISC",
+  "devDependencies": {
+    "scanf": "^1.2.0"
+  }
+}
