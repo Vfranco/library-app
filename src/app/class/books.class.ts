@@ -1,4 +1,4 @@
-import { Book } from "../entities/book.entitie";
+import { Book } from "../types/book.entitie";
 import { BooksCrud } from "../interfaces/books.interface";
 
 export class Books implements BooksCrud {

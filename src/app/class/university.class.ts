@@ -1,6 +1,6 @@
 import { LibraryProcess } from "../abstractions/library-process.abstract";
-import { Book } from "../entities/book.entitie";
-import { Student } from "../entities/student.entitie";
+import { Book } from "../types/book.entitie";
+import { Student } from "../types/student.entitie";
 
 export class UniversityLibrary extends LibraryProcess {
   private isDelivered!: boolean;

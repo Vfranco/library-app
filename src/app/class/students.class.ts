@@ -1,4 +1,4 @@
-import { Student } from "../entities/student.entitie";
+import { Student } from "../types/student.entitie";
 import { StudentCrud } from "../interfaces/student.interface";
 
 export class Students implements StudentCrud {

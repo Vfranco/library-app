@@ -1,5 +1,5 @@
-import { Book } from "../entities/book.entitie";
-import { Student } from "../entities/student.entitie";
+import { Book } from "../types/book.entitie";
+import { Student } from "../types/student.entitie";
 
 export abstract class LibraryProcess {
   abstract isBookAvailable(book: Book): boolean

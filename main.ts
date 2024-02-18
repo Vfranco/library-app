@@ -1,6 +1,9 @@
+import { ViewConsole } from "./src/app/view/console/view";
+
 class Application {
   static main(): void {
-    console.log("Mi Libreria!");
+    const view = new ViewConsole;
+    view.showMenu();
   }
 }
 
